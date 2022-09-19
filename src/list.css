@@ -1,0 +1,12 @@
+.name { 
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+.content {
+    background-color: skyblue;
+}
+.li{
+   
+    list-style: none;
+}
