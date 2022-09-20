@@ -1,15 +1,17 @@
 // 引入包
 import React from "react";
 import ReactDOM from "react-dom";
-// 函数式组件
-function Hello(){
-  return <h1>我是函数式组件</h1>
-}
+import  Person  from "./components/Person";
+// // 函数式组件
+// function Hello(){
+//   return <h1>我是函数式组件</h1>
+// }
 
-const listNodes=(
-  <div>
-  <Hello></Hello>
-  </div>
-)
+// const listNodes=(
+//   <div>
+//   <Hello></Hello>
+//   <Person></Person>
+//   </div>
+// )
 
-ReactDOM.render(listNodes,document.querySelector('#root'));
+ReactDOM.render(<Person />,document.querySelector('#root'));
